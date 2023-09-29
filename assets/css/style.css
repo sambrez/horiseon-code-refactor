@@ -15,16 +15,15 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+/* Consolidated selectors .header h1 and .header h1 .seo */
+/* Changed from a class selector to an id */
+#h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
     color: #d9dcd6;
 }
 
-/*  */
+/* HTML semantics updates */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
